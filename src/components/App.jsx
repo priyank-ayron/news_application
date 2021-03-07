@@ -4,6 +4,7 @@ import NewsCards from "../components/NewsCards/NewsCards";
 import useStyles from "./styles";
 import wordsToNumbers from "words-to-numbers";
 import image from "./media.jpg";
+import Footer from "./Footer/Footer";
 
 const api_key =
   "169b2b5be68138c958b579a8da7222392e956eca572e1d8b807a3e2338fdd0dc/stage";
@@ -43,13 +44,16 @@ function App() {
   }, []);
   return (
     <div>
-      <div className={classes.logoContainer}>
-        <img src={image} className={classes.alanLogo} alt="logo" />
+      <div>
+        <div className={classes.logoContainer}>
+          <img src={image} className={classes.alanLogo} alt="logo" />
+        </div>
+        <NewsCards
+          articles={newsArticles}
+          activeArticle={activeArticle}
+        ></NewsCards>
       </div>
-      <NewsCards
-        articles={newsArticles}
-        activeArticle={activeArticle}
-      ></NewsCards>
+      <Footer></Footer>
     </div>
   );
 }

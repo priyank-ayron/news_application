@@ -1,11 +1,10 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 import "./Footer.css";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import PhoneIcon from "@material-ui/icons/Phone";
-import EmailIcon from "@material-ui/icons/Email";
-import { IconButton } from "@material-ui/core";
 
 function Footer() {
   return (
@@ -23,9 +22,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="Click to open LinkedIn"
                 >
-                  <IconButton>
-                    <LinkedInIcon></LinkedInIcon>
-                  </IconButton>
+                  <FaLinkedin></FaLinkedin>
                 </a>
               </p>
               <p className="each_detail">
@@ -36,9 +33,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="Click to open Github"
                 >
-                  <IconButton>
-                    <GitHubIcon></GitHubIcon>
-                  </IconButton>
+                  <FaGithub></FaGithub>
                 </a>
               </p>
               <p className="each_detail">
@@ -49,9 +44,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="Click to open facebook"
                 >
-                  <IconButton>
-                    <FacebookIcon></FacebookIcon>
-                  </IconButton>
+                  <FaFacebook></FaFacebook>
                 </a>
               </p>
               <li className="display_contact">
@@ -62,9 +55,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="+91-6386947948"
                 >
-                  <IconButton>
-                    <PhoneIcon></PhoneIcon>
-                  </IconButton>
+                  <FaPhoneAlt></FaPhoneAlt>
                 </a>
               </li>
               <li className="display_contact">
@@ -75,9 +66,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   title="priyank.ayron@gmail.com"
                 >
-                  <IconButton>
-                    <EmailIcon></EmailIcon>
-                  </IconButton>
+                  <FaEnvelope></FaEnvelope>
                 </a>
               </li>
             </div>

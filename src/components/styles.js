@@ -12,9 +12,6 @@ export default makeStyles((theme) => ({
     alignItems: "center",
     justifyContent: "center",
     height: "120px",
-    [theme.breakpoints.down("sm")]: {
-      display: "none",
-    },
   },
   link: {
     textDecoration: "none",
