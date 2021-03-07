@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,gBAGE,YACF,CACA,KACE,QAAS,CACT,wBACF,CACA,EACE,qBACF,CACA,KACE,sBACF","file":"main.67b1064e.chunk.css","sourcesContent":["#root,\nhtml,\nbody {\n  height: 100vh;\n}\nbody {\n  margin: 0;\n  background-color: whitesmoke;\n}\n* {\n  box-sizing: border-box;\n}\nhtml {\n  scroll-behavior: smooth;\n}\n"]}
